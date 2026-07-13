@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan de entrenamiento semanal</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f4f5f7;color:#1a1a1a;line-height:1.5}
+header{background:linear-gradient(135deg,#e8590c,#9c36b5);color:#fff;padding:28px 20px;text-align:center}
+header h1{font-size:1.6rem;margin-bottom:4px}
+header p{opacity:.9;font-size:.95rem}
+.tabs{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;padding:16px;position:sticky;top:0;background:#f4f5f7;z-index:10;box-shadow:0 2px 6px rgba(0,0,0,.05)}
+.tab{border:none;padding:10px 18px;border-radius:22px;background:#fff;cursor:pointer;font-weight:600;font-size:.9rem;color:#555;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.tab.active{background:#1a1a1a;color:#fff}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px 60px}
+.daybanner{color:#fff;border-radius:14px;padding:16px 20px;margin:8px 0 18px}
+.daybanner h2{font-size:1.15rem}
+.block{margin:14px 0}
+.pill{display:inline-block;background:#495057;color:#fff;padding:5px 14px;border-radius:20px;font-weight:600;font-size:.85rem;margin-bottom:8px}
+.cardio p,.hint{background:#fff;padding:14px 16px;border-radius:12px;font-size:.92rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.hint{color:#555;font-size:.85rem}
+.sec{margin:22px 0 10px;font-size:1.05rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08);display:flex;flex-direction:column}
+.gifwrap{background:#fff;display:flex;justify-content:center;align-items:center;border-bottom:1px solid #eee}
+.gifwrap img{width:100%;max-width:220px;height:auto}
+.cbody{padding:12px 14px}
+.cbody h3{font-size:1rem;text-transform:capitalize}
+.sets{display:inline-block;color:#fff;padding:3px 12px;border-radius:14px;font-weight:700;font-size:.85rem;margin:8px 0}
+.note{font-size:.83rem;color:#666;margin-bottom:6px}
+details summary{cursor:pointer;font-size:.85rem;color:#1971c2;font-weight:600;padding:4px 0}
+details ol{padding-left:18px;font-size:.83rem;color:#444;margin-top:6px}
+details li{margin-bottom:4px}
+footer{text-align:center;padding:24px;font-size:.8rem;color:#888}
+</style></head><body>
+<header><h1>💪 Plan de entrenamiento semanal</h1>
+<p>4 días · ~45 min (20 min cardio + 25 min fuerza) · gimnasio básico</p></header>
+<div class="tabs"><button class="tab" data-t="0" onclick="show(0)">Día 1</button><button class="tab" data-t="1" onclick="show(1)">Día 2</button><button class="tab" data-t="2" onclick="show(2)">Día 3</button><button class="tab" data-t="3" onclick="show(3)">Día 4</button></div>
+<div class="wrap"><div class="panel" id="p0" style="display:block">
+      <div class="daybanner" style="background:#e8590c"><h2>Día 1 · Tren inferior + intervalos en cinta</h2></div>
+      <div class="block cardio"><span class="pill">🏃 Cardio · 20 min</span><p><b>Cinta · 20 min de intervalos.</b> 5 min andando para calentar. Luego 8 rondas de 1 min a ritmo exigente (trote o marcha rápida) + 1 min andando suave. Termina con 2 min andando para bajar pulsaciones.</p></div>
+      
+      <div class="block"><span class="pill" style="background:#e8590c">🏋️ Fuerza · 25 min</span>
+      <p class="hint">Descanso 45-60 seg entre series. Peso que te deje 1-2 repeticiones en reserva.</p></div>
+      <div class="grid"><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/1760-yn8yg1r.gif" alt="dumbbell goblet squat"></div>
+      <div class="cbody">
+        <h3>Dumbbell goblet squat</h3>
+        <span class="sets" style="background:#e8590c">3 × 12</span>
+        <p class='note'>Baja controlada, rodillas hacia fuera</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con los pies separados a la altura de los hombros, sosteniendo una mancuerna verticalmente contra el pecho con ambas manos.</li><li>Manteniendo el pecho erguido y el core activado, baja el cuerpo a una posición de sentadilla empujando las caderas hacia atrás y flexionando las rodillas.</li><li>Continúa bajando hasta que los muslos queden paralelos al suelo, o tan abajo como puedas hacerlo cómodamente.</li><li>Haz una pausa por un momento en la parte inferior, luego empuja con los talones para regresar a la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/1459-rR0LJzx.gif" alt="dumbbell romanian deadlift"></div>
+      <div class="cbody">
+        <h3>Dumbbell romanian deadlift</h3>
+        <span class="sets" style="background:#e8590c">3 × 12</span>
+        <p class='note'>Espalda recta, nota el estiramiento de isquios</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con los pies separados a la altura de los hombros, sujetando una mancuerna en cada mano con un agarre prono.</li><li>Manteniendo la espalda recta y el core activado, inclínate desde las caderas y baja las mancuernas hacia el suelo, permitiendo que las rodillas se flexionen ligeramente.</li><li>Baja las mancuernas hasta sentir un estiramiento en los isquiotibiales, luego empuja con los talones y activa los glúteos para volver a la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0336-RRWFUcw.gif" alt="dumbbell lunge"></div>
+      <div class="cbody">
+        <h3>Dumbbell lunge</h3>
+        <span class="sets" style="background:#e8590c">3 × 10 por pierna</span>
+        
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con los pies separados a la altura de los hombros, sujetando una mancuerna en cada mano.</li><li>Da un paso adelante con el pie derecho, bajando el cuerpo hasta una posición de zancada.</li><li>Mantén la espalda recta y el pecho erguido mientras bajas el cuerpo.</li><li>Empuja con el talón derecho para regresar a la posición inicial.</li><li>Repite con la pierna izquierda.</li><li>Alterna las piernas el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/3523-aWedzZX.gif" alt="glute bridge two legs on bench (male)"></div>
+      <div class="cbody">
+        <h3>Glute bridge two legs on bench (male)</h3>
+        <span class="sets" style="background:#e8590c">3 × 15</span>
+        <p class='note'>Aprieta glúteo arriba 1 seg. Usa el banco</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Siéntate en el borde de un banco con la espalda apoyada en él y los pies planos sobre el suelo.</li><li>Coloca las manos en el banco junto a las caderas para mayor apoyo.</li><li>Activa los glúteos y los isquiotibiales, luego levanta las caderas del banco hasta que el cuerpo forme una línea recta desde las rodillas hasta los hombros.</li><li>Haz una pausa por un momento en la parte superior, luego baja lentamente las caderas de vuelta a la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0464-CosupLu.gif" alt="front plank with twist"></div>
+      <div class="cbody">
+        <h3>Front plank with twist</h3>
+        <span class="sets" style="background:#e8590c">3 × 30 seg</span>
+        <p class='note'>Core apretado, cadera estable</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Comienza en posición de plancha alta con las manos directamente debajo de los hombros y el cuerpo en línea recta de la cabeza a los pies.</li><li>Activa el core y los glúteos para mantener una posición estable.</li><li>Gira el torso hacia la derecha, levantando el brazo derecho y extendiéndolo hacia el techo.</li><li>Mantén las caderas y las piernas estables mientras giras.</li><li>Mantén la posición por un momento, luego regresa a la posición inicial.</li><li>Repite el giro hacia el lado izquierdo.</li></ol></details>
+      </div></div></div>
+    </div><div class="panel" id="p1" style="display:none">
+      <div class="daybanner" style="background:#1971c2"><h2>Día 2 · Tren superior (empuje) + escalador</h2></div>
+      <div class="block cardio"><span class="pill">🏃 Cardio · 20 min</span><p><b>Escalador · 20 min.</b> 4 min suave para entrar. Luego 12 rondas de 45 seg fuerte + 45 seg suave. Mantén el tronco erguido, sin apoyar todo el peso en los brazos.</p></div>
+      
+      <div class="block"><span class="pill" style="background:#1971c2">🏋️ Fuerza · 25 min</span>
+      <p class="hint">Descanso 45-60 seg entre series. Peso que te deje 1-2 repeticiones en reserva.</p></div>
+      <div class="grid"><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0289-SpYC0Kp.gif" alt="dumbbell bench press"></div>
+      <div class="cbody">
+        <h3>Dumbbell bench press</h3>
+        <span class="sets" style="background:#1971c2">3 × 12</span>
+        <p class='note'>Tumbada en el banco, baja hasta el pecho</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Túmbate sobre un banco con los pies apoyados en el suelo y la espalda presionada contra el banco.</li><li>Sujeta una mancuerna en cada mano, con las palmas hacia adelante y los brazos extendidos por encima del pecho.</li><li>Baja lentamente las mancuernas hacia los lados del pecho, manteniendo los codos en un ángulo de 90 grados.</li><li>Haz una pausa breve, luego empuja las mancuernas de vuelta hacia arriba hasta la posición inicial, extendiendo completamente los brazos.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/2137-Xy4jlWA.gif" alt="dumbbell arnold press"></div>
+      <div class="cbody">
+        <h3>Dumbbell arnold press</h3>
+        <span class="sets" style="background:#1971c2">3 × 12</span>
+        <p class='note'>Gira las muñecas al subir</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Siéntate en un banco con respaldo y sujeta una mancuerna en cada mano a la altura del hombro, con las palmas hacia tu cuerpo y los codos flexionados.</li><li>Empuja las mancuernas hacia arriba hasta que los brazos estén completamente extendidos y las palmas miren hacia adelante.</li><li>Rota las muñecas mientras levantas, de modo que las palmas miren hacia adelante en la parte alta del movimiento.</li><li>Haz una pausa breve en la parte alta, luego baja lentamente las mancuernas de vuelta a la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0308-yz9nUhF.gif" alt="dumbbell fly"></div>
+      <div class="cbody">
+        <h3>Dumbbell fly</h3>
+        <span class="sets" style="background:#1971c2">3 × 12</span>
+        <p class='note'>Codos algo flexionados, abre en arco</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Túmbate boca arriba en un banco con una mancuerna en cada mano, con las palmas enfrentadas entre sí.</li><li>Extiende los brazos rectos hacia arriba sobre el pecho, con una ligera flexión en los codos.</li><li>Manteniendo una ligera flexión en los codos, baja los brazos hacia los lados en un amplio arco hasta sentir un estiramiento en el pecho.</li><li>Haz una pausa por un momento, luego invierte el movimiento y lleva las mancuernas de nuevo hacia arriba hasta la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0334-DsgkuIt.gif" alt="dumbbell lateral raise"></div>
+      <div class="cbody">
+        <h3>Dumbbell lateral raise</h3>
+        <span class="sets" style="background:#1971c2">3 × 15</span>
+        <p class='note'>Peso ligero, sube hasta la altura del hombro</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con los pies separados a la altura de los hombros y sostén una mancuerna en cada mano, con las palmas hacia el cuerpo.</li><li>Mantén la espalda recta y activa el core.</li><li>Levanta los brazos hacia los lados hasta que queden paralelos al suelo, manteniendo una ligera flexión en los codos.</li><li>Haz una pausa por un momento en la parte superior, luego baja lentamente los brazos de vuelta a la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0333-W6PxUkg.gif" alt="dumbbell kickback"></div>
+      <div class="cbody">
+        <h3>Dumbbell kickback</h3>
+        <span class="sets" style="background:#1971c2">3 × 12</span>
+        <p class='note'>Codo fijo, extiende solo el antebrazo</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con los pies separados a la altura de los hombros y sostén una mancuerna en cada mano.</li><li>Flexiona ligeramente las rodillas e inclínate hacia adelante desde las caderas, manteniendo la espalda recta.</li><li>Acerca los brazos superiores a los costados, con los codos flexionados en un ángulo de 90 grados.</li><li>Extiende los brazos rectos hacia atrás, contrayendo los tríceps en la parte superior del movimiento.</li><li>Haz una pausa por un momento, luego baja lentamente las mancuernas de vuelta a la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div></div>
+    </div><div class="panel" id="p2" style="display:none">
+      <div class="daybanner" style="background:#2f9e44"><h2>Día 3 · Full body + glúteos + cinta inclinada</h2></div>
+      <div class="block cardio"><span class="pill">🏃 Cardio · 20 min</span><p><b>Cinta inclinada · 20 min.</b> Andar a inclinación 8-12% a ritmo vivo (deberías poder hablar con algo de esfuerzo, zona 2). Sin agarrarte a las barras.</p></div>
+      
+      <div class="block"><span class="pill" style="background:#2f9e44">🏋️ Fuerza · 25 min</span>
+      <p class="hint">Descanso 45-60 seg entre series. Peso que te deje 1-2 repeticiones en reserva.</p></div>
+      <div class="grid"><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/1760-yn8yg1r.gif" alt="dumbbell goblet squat"></div>
+      <div class="cbody">
+        <h3>Dumbbell goblet squat</h3>
+        <span class="sets" style="background:#2f9e44">3 × 15</span>
+        
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con los pies separados a la altura de los hombros, sosteniendo una mancuerna verticalmente contra el pecho con ambas manos.</li><li>Manteniendo el pecho erguido y el core activado, baja el cuerpo a una posición de sentadilla empujando las caderas hacia atrás y flexionando las rodillas.</li><li>Continúa bajando hasta que los muslos queden paralelos al suelo, o tan abajo como puedas hacerlo cómodamente.</li><li>Haz una pausa por un momento en la parte inferior, luego empuja con los talones para regresar a la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0292-C0MA9bC.gif" alt="dumbbell one arm bent-over row"></div>
+      <div class="cbody">
+        <h3>Dumbbell one arm bent-over row</h3>
+        <span class="sets" style="background:#2f9e44">3 × 12 por lado</span>
+        <p class='note'>Apoya rodilla y mano en el banco</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con los pies separados a la altura de los hombros, sosteniendo una mancuerna en una mano con la palma hacia el cuerpo.</li><li>Flexiona ligeramente las rodillas e inclínate hacia adelante desde las caderas, manteniendo la espalda recta y el core activado.</li><li>Deja que la mancuerna cuelgue recta hacia el suelo, con el brazo completamente extendido.</li><li>Tira de la mancuerna hacia el pecho, manteniendo el codo cerca del cuerpo y juntando los omóplatos.</li><li>Haz una pausa breve en la parte más alta, luego baja lentamente la mancuerna de vuelta a la posición inicial.</li><li>Repite el número de repeticiones deseado, luego cambia de lado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0431-aXtJhlg.gif" alt="dumbbell step-up"></div>
+      <div class="cbody">
+        <h3>Dumbbell step-up</h3>
+        <span class="sets" style="background:#2f9e44">3 × 10 por pierna</span>
+        <p class='note'>Usa el banco o el step</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie frente a un banco o escalón con una mancuerna en cada mano, con las palmas hacia tu cuerpo.</li><li>Coloca el pie derecho sobre el banco o escalón, asegurándote de que todo el pie esté en contacto con la superficie.</li><li>Empuja con el talón derecho y sube el cuerpo sobre el banco o escalón, enderezando la pierna derecha.</li><li>Sube el pie izquierdo hasta el banco o escalón, quedando completamente erguido.</li><li>Baja con el pie izquierdo, seguido del pie derecho, volviendo a la posición inicial.</li><li>Repite el número de repeticiones deseado, luego cambia de pierna.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0803-4GqRrAk.gif" alt="superman push-up"></div>
+      <div class="cbody">
+        <h3>Superman push-up</h3>
+        <span class="sets" style="background:#2f9e44">3 × 12</span>
+        <p class='note'>Aprieta lumbar y glúteo arriba</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Comienza en una posición de plancha alta con las manos un poco más separadas que la anchura de los hombros y los pies juntos.</li><li>Activa el core y baja el cuerpo hacia el suelo, manteniendo los codos cerca de los costados.</li><li>Mientras bajas el cuerpo, levanta simultáneamente el brazo derecho y la pierna izquierda del suelo, extendiéndolos completamente.</li><li>Haz una pausa de un momento en la parte superior, luego baja el brazo y la pierna mientras te empujas de nuevo hacia arriba a la posición inicial.</li><li>Repite el movimiento, esta vez levantando el brazo izquierdo y la pierna derecha.</li><li>Continúa alternando lados durante el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0276-iny3m5y.gif" alt="dead bug"></div>
+      <div class="cbody">
+        <h3>Dead bug</h3>
+        <span class="sets" style="background:#2f9e44">3 × 10 por lado</span>
+        <p class='note'>Zona lumbar pegada al suelo</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Túmbate boca arriba con los brazos extendidos hacia el techo.</li><li>Flexiona las rodillas y levanta las piernas del suelo, formando un ángulo de 90 grados en las caderas y las rodillas.</li><li>Activa el core y la zona lumbar para presionar la zona lumbar contra el suelo.</li><li>Baja lentamente el brazo derecho y la pierna izquierda hacia el suelo, manteniéndolos rectos y justo por encima del suelo.</li><li>Haz una pausa breve y luego vuelve a la posición inicial.</li><li>Repite el movimiento con el brazo izquierdo y la pierna derecha.</li></ol></details>
+      </div></div></div>
+    </div><div class="panel" id="p3" style="display:none">
+      <div class="daybanner" style="background:#9c36b5"><h2>Día 4 · Tren superior (tirón) + core + cardio</h2></div>
+      <div class="block cardio"><span class="pill">🏃 Cardio · 20 min</span><p><b>Circuito · 20 min.</b> 10 min de intervalos en cinta + 10 min de circuito bodyweight: 4 rondas de 40 seg de cada uno (skater hops, mountain climber, burpee) con 20 seg de descanso.</p></div>
+      <h2 class="sec">Ejercicios del circuito cardio</h2><div class="grid"><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/3361-zfNHMN9.gif" alt="skater hops"></div>
+      <div class="cbody">
+        <h3>Skater hops</h3>
+        <span class="sets" style="background:#9c36b5">40 seg</span>
+        
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con los pies separados a la altura de los hombros.</li><li>Dobla ligeramente las rodillas y salta hacia la derecha, aterrizando sobre el pie derecho.</li><li>Al aterrizar, balancea la pierna izquierda detrás de la pierna derecha y toca el suelo con los dedos del pie izquierdo.</li><li>Salta inmediatamente hacia la izquierda, aterrizando sobre el pie izquierdo.</li><li>Al aterrizar, balancea la pierna derecha detrás de la pierna izquierda y toca el suelo con los dedos del pie derecho.</li><li>Continúa alternando los lados, saltando y tocando el suelo con cada pierna.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0630-RJgzwny.gif" alt="mountain climber"></div>
+      <div class="cbody">
+        <h3>Mountain climber</h3>
+        <span class="sets" style="background:#9c36b5">40 seg</span>
+        
+        <details><summary>Cómo hacerlo</summary><ol><li>Comienza en una posición de plancha alta con las manos justo debajo de los hombros y el cuerpo en línea recta.</li><li>Activa el core y lleva la rodilla derecha hacia el pecho, luego cambia rápidamente y lleva la rodilla izquierda hacia el pecho.</li><li>Continúa alternando las piernas con un movimiento de carrera, manteniendo las caderas bajas y el core activado.</li><li>Mantén un ritmo constante y respira de forma regular durante todo el ejercicio.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/1160-dK9394r.gif" alt="burpee"></div>
+      <div class="cbody">
+        <h3>Burpee</h3>
+        <span class="sets" style="background:#9c36b5">40 seg</span>
+        
+        <details><summary>Cómo hacerlo</summary><ol><li>Comienza de pie con los pies separados a la altura de los hombros.</li><li>Baja el cuerpo hacia una posición de sentadilla flexionando las rodillas y colocando las manos en el suelo frente a ti.</li><li>Lleva los pies hacia atrás de una patada hasta una posición de flexión de brazos.</li><li>Realiza una flexión de brazos, manteniendo el cuerpo en línea recta.</li><li>Salta con los pies de vuelta a la posición de sentadilla.</li><li>Salta hacia arriba explosivamente, llevando los brazos por encima de la cabeza.</li></ol></details>
+      </div></div></div>
+      <div class="block"><span class="pill" style="background:#9c36b5">🏋️ Fuerza · 25 min</span>
+      <p class="hint">Descanso 45-60 seg entre series. Peso que te deje 1-2 repeticiones en reserva.</p></div>
+      <div class="grid"><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0293-BJ0Hz5L.gif" alt="dumbbell bent over row"></div>
+      <div class="cbody">
+        <h3>Dumbbell bent over row</h3>
+        <span class="sets" style="background:#9c36b5">3 × 12</span>
+        <p class='note'>Tira con la espalda, codos pegados</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con los pies separados a la altura de los hombros, las rodillas ligeramente flexionadas, y sujeta una mancuerna en cada mano con las palmas hacia tu cuerpo.</li><li>Inclínate hacia adelante desde las caderas, manteniendo la espalda recta y el core activado.</li><li>Deja que los brazos cuelguen rectos hacia el suelo, con los codos ligeramente flexionados.</li><li>Tira de las mancuernas hacia arriba, hacia el pecho, apretando los omóplatos entre sí.</li><li>Haz una pausa breve en la parte alta, luego baja lentamente las mancuernas de vuelta a la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0383-EAs3xL9.gif" alt="dumbbell reverse fly"></div>
+      <div class="cbody">
+        <h3>Dumbbell reverse fly</h3>
+        <span class="sets" style="background:#9c36b5">3 × 15</span>
+        <p class='note'>Peso ligero, aprieta escápulas</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con los pies separados a la altura de los hombros y sostén una mancuerna en cada mano.</li><li>Flexiona ligeramente las rodillas e inclínate hacia adelante desde las caderas, manteniendo la espalda recta.</li><li>Extiende los brazos rectos hacia adelante, con las palmas mirándose entre sí.</li><li>Manteniendo una ligera flexión en los codos, levanta los brazos hacia los lados hasta que queden paralelos al suelo.</li><li>Haz una pausa por un momento en la parte superior, luego baja lentamente los brazos de vuelta a la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0294-NbVPDMW.gif" alt="dumbbell biceps curl"></div>
+      <div class="cbody">
+        <h3>Dumbbell biceps curl</h3>
+        <span class="sets" style="background:#9c36b5">3 × 12</span>
+        
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con una mancuerna en cada mano, con las palmas hacia adelante y los brazos completamente extendidos.</li><li>Manteniendo los brazos superiores fijos, exhala y levanta el peso mientras contraes los bíceps.</li><li>Continúa levantando las pesas hasta que los bíceps estén completamente contraídos y las mancuernas estén a la altura de los hombros.</li><li>Mantén la posición contraída durante una breve pausa mientras aprietas los bíceps.</li><li>Inhala y comienza a bajar lentamente las mancuernas de vuelta a la posición inicial.</li><li>Repite el número de repeticiones deseado.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0313-slDvUAU.gif" alt="dumbbell hammer curl"></div>
+      <div class="cbody">
+        <h3>Dumbbell hammer curl</h3>
+        <span class="sets" style="background:#9c36b5">3 × 12</span>
+        <p class='note'>Agarre neutro (martillo)</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Ponte de pie con una mancuerna en cada mano, con las palmas mirando hacia el torso.</li><li>Mantén los codos cerca del torso y gira las palmas de las manos hasta que queden mirando hacia adelante.</li><li>Esta será tu posición inicial.</li><li>Ahora, manteniendo los brazos superiores quietos, exhala y flexiona los brazos contrayendo los bíceps.</li><li>Continúa levantando las pesas hasta que los bíceps estén completamente contraídos y las mancuernas estén a la altura de los hombros.</li><li>Mantén la posición contraída durante una breve pausa mientras aprietas los bíceps.</li></ol></details>
+      </div></div><div class="card">
+      <div class="gifwrap"><img loading="lazy" src="exercise-dataset/videos/0687-XVDdcoj.gif" alt="russian twist"></div>
+      <div class="cbody">
+        <h3>Russian twist</h3>
+        <span class="sets" style="background:#9c36b5">3 × 20 total</span>
+        <p class='note'>Gira el tronco, controlado</p>
+        <details><summary>Cómo hacerlo</summary><ol><li>Siéntate en el suelo con las rodillas flexionadas y los pies apoyados en el suelo.</li><li>Inclínate ligeramente hacia atrás manteniendo la espalda recta y el core activado.</li><li>Junta las manos frente al pecho o sujeta una pesa si lo deseas.</li><li>Levanta los pies del suelo, equilibrándote sobre los isquiones.</li><li>Gira el torso hacia la derecha, llevando las manos o la pesa hacia el lado derecho del cuerpo.</li><li>Haz una pausa por un momento, luego gira el torso hacia la izquierda, llevando las manos o la pesa hacia el lado izquierdo del cuerpo.</li></ol></details>
+      </div></div></div>
+    </div></div>
+<footer>GIFs © Gym Visual · vía exercise-dataset. Ajusta cargas y repeticiones a tu nivel.</footer>
+<script>
+function show(n){
+  document.querySelectorAll('.panel').forEach((p,i)=>p.style.display=i==n?'block':'none');
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',i==n));
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+show(0);
+</script></body></html>
